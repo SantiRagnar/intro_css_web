@@ -1,0 +1,59 @@
+body{
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(13, 17, 23);
+    height: 45px;
+    max-height: 50px;
+    padding: 10px;
+}
+
+img{
+    width: 20px;
+}
+
+.menu{
+    padding: 5px;
+}
+
+.search{
+    padding: 5px;
+}
+
+.bell{
+    padding: 5px;
+}
+
+.profile > img{
+    width: 35px;
+}
+
+.menu:hover{
+    background-color: rgb(21, 28, 37);
+    border: 1px solid rgb(45, 60, 80);
+    border-radius: 25%;
+}
+
+.search:hover{
+    background-color: rgb(21, 28, 37);
+    border: 1px solid rgb(45, 60, 80);
+    border-radius: 25%;
+}
+
+.bell:hover{
+    background-color: rgb(21, 28, 37);
+    border: 1px solid rgb(45, 60, 80);
+    border-radius: 25%;
+}
+
+.profile > img:hover{
+    width: 35px;
+    border: 3px solid rgb(73, 97, 128);
+    border-radius: 50%;
+}
